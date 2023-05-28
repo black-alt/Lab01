@@ -43,10 +43,10 @@ public class Bed extends Furniture {
     public String toString() {
         return "Bed. " + super.toString() +
                 " | Size: " +
-                mattressType +
-                " | Have headboard: " +
                 Size +
+                " | Have headboard: " +
+                HaveHeadboard +
                 " | Mattress type: " +
-                HaveHeadboard;
+                mattressType;
     }
 }
